@@ -1,13 +1,13 @@
 # Prometheus Kvrocks Metrics Exporter
 
-This is a fork of oliver006/redis_exporter to export the kvrocks metrics.
+This is a fork of RocksLabs/kvrocks_exporter the kvrocks metrics.
 
 ## Building and running the exporter
 
 ### Build and run locally
 
 ```sh
-git clone https://github.com/RocksLabs/kvrocks_exporter.git
+git clone https://github.com/GoogleCloudPlatform/kvrocks_exporter.git
 cd kvrocks_exporter
 go build .
 ./kvrocks_exporter --version
